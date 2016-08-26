@@ -1,16 +1,16 @@
 {
-  "name": "chat_room",
+  "name": "lessonToFormate",
   "version": "1.0.0",
-  "description": "a simple chat room",
-  "main": "index.js",
+  "description": "lessonToFormate",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "chat"
+    "lesson"
   ],
-  "author": "huli",
-  "license": "ISC",
+  "author": "fishclin",
+  "license": "",
   "dependencies": {
     "express": "^4.12.3",
     "socket.io": "^1.3.5"
