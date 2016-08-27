@@ -1,5 +1,4 @@
-var express = require('express');
-var app = express(); //建立Express個體
+var app = require('express')();
 var http = require('http');
 
 app.get('/', function(req, res){
