@@ -213,7 +213,7 @@
         document.getElementById("month1").value = d1.getMonth();
         document.getElementById("date1").value = d1.getDate();
 
-        alert("設定時間");
+        //alert("設定時間");
 
         document.getElementById("day1").value = getDayChinese( d1.getDay() );
         document.getElementById("hr1").value = d1.getHours();
@@ -362,7 +362,7 @@
       for(var i=0 ; i < checkedSoulBodyPrepare.length ; i++)
       {
         result = result+"+"+checkedSoulBodyPrepare[i];
-        alert("靈肉預備打勾的");
+        //alert("靈肉預備打勾的");
       }
       
       if(soulBodyPrepareNote1!="")
@@ -378,7 +378,7 @@
       for(var i=0 ; i < checkedPlacePrepare.length ; i++)
       {
         result = result+"+"+checkedPlacePrepare[i];
-        alert("場地預備打勾的");
+        //alert("場地預備打勾的");
       }
       if(placePrepareNote1!="")
       {
@@ -465,7 +465,7 @@
       for(var i=0 ; i < checkedPlace.length ; i++)
       {
         result = result+ checkedPlace[i] +"/";
-        alert("選擇場地打勾的");
+        //alert("選擇場地打勾的");
       }
       return result;
     }
@@ -517,7 +517,7 @@
       var elem = document.getElementById("invite_block");
       elem.innerHTML = "";  //清空     
 
-      alert("邀請");
+      //alert("邀請");
 
       $(elem).append("<div></div>").append(
         '<span class="label label-primary col-md-1">邀聽課</span>'+
