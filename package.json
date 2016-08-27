@@ -1,7 +1,7 @@
 {
-  "name": "lessonToFormate",
+  "name": "lesson_to_formate",
   "version": "1.0.0",
-  "description": "lessonToFormate",
+  "description": "lesson to formate",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
