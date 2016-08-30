@@ -466,7 +466,7 @@ function getStrSoulBodyPrepare(checkedSoulBodyPrepare,soulBodyPrepareNote1)
       $(elem).append("<div></div>").append(
         '<span class="label label-primary col-md-1">行事曆預定</span>'+
         '<div class= col-md-11>'+
-          '<h4>'+checkedPlace+'/ '+studentName+'/ '+AM_PM+formate_12_hour1+lessonName+'('+lecturerName+')/ '+formate_12_hour2+'預備('+prepareName+")/ 窗口:"+contactName+formate_prepareContact+
+          '<h4>'+checkedPlace+'/ '+studentName+'/ '+AM_PM+formate_12_hour2+lessonName+'('+lecturerName+')/ '+formate_12_hour1+'預備('+prepareName+")/ 窗口:"+contactName+formate_prepareContact+
           '</h4>'+
         '</div>'
         );
