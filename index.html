@@ -27,15 +27,32 @@
         <div id="input_block" class="row">
             <!-- 輸入區間 -->
             <!-- 預備時間區間 row -->
+
+            <div id="signin_block" class="row">
+                <div class="col-md-1">
+                  <span class="label label-primary">LOGIN</span>
+                </div>
+                <div class="col-md-11">
+                    <form class="form-inline" autocomplete="on">
+                      <div class="form-group">                        
+                          <input type="text" class="form-control" id="gmail" placeholder="gmail" size="" autofocus>
+                      </div>
+                      <div class="form-group">                        
+                          <input type="password" class="form-control" id="password" placeholder="password" size="">
+                      </div>
+                    </form>         
+                </div>              
+            </div>
+
             <div id="timePrepare_block" class="row">
-                <div>
+                <div class="col-md-11">
                     <div class="col-md-1">
                         <span class="label label-primary">預備時間</span>
                     </div>
                     <div class="col-md-11">
                         <form class="form-inline" autocomplete="on">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="year1" placeholder="year" size="5" autofocus>
+                                <input type="text" class="form-control" id="year1" placeholder="year" size="5">
                                 <label for="">年</label>
                             </div>
                             <div class="form-group">
@@ -64,10 +81,11 @@
                         </form>
                     </div>
                 </div>
+                
             </div>
             <!-- 上課時間區間 row -->
             <div id="time_block" class="row">
-                <div>
+                <div class="col-md-11">
                     <div class="col-md-1">
                         <span class="label label-primary">上課時間</span>
                     </div>
@@ -99,6 +117,9 @@
                             </div>
                         </form>
                     </div>
+                </div>
+                <div class="col-md-1">
+                  
                 </div>
             </div>
             <!-- 地點區間、人員區間、課程名稱 row -->
@@ -215,7 +236,7 @@
                             <form>
                                 <div class="form-group form-inline">
                                     <label class="control-label col-md-4" for="">課名:</label>
-                                    <input class="control-label col-md-8" type="text" class="form-control" id="lessonName" placeholder="課名" value="日月停止">
+                                    <input class="form-control col-md-8" type="text" id="lessonName" placeholder="課名" value="日月停止" size="15">
                                     <br/>
                                 </div>
                             </form>
